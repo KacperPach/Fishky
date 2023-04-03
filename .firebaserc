@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fishky-quiz": {
+      "hosting": {
+        "Fishky": [
+          "fisky"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fishky-quiz"
+  }
+}
