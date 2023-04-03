@@ -105,7 +105,7 @@
             "ssr": false,
             "browserTarget": "Fishky:build:production",
             "firebaseProject": "fishky-quiz",
-            "firebaseHostingSite": "fisky"
+            "firebaseHostingSite": "fishky"
           }
         }
       }
