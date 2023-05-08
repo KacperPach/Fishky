@@ -6,3 +6,6 @@ $base-bacground: #363C44;
 body {
   background-color: $base-bacground;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

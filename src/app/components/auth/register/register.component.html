@@ -1,0 +1,27 @@
+<mat-card>
+  <mat-card-header>
+    <h1>Register to Fishky! 🐡</h1>
+  </mat-card-header>
+
+  <form [formGroup]="registerForm" (submit)="onSubmit()">
+    <mat-card-content>
+      <mat-form-field >
+        <mat-label>Email</mat-label>
+        <input matInput type="email" formControlName="email" required>
+      </mat-form-field>
+      <mat-form-field >
+        <mat-label>Password</mat-label>
+        <input matInput type="password" formControlName="password" required>
+      </mat-form-field>
+      <mat-form-field >
+        <mat-label>Confirm Password</mat-label>
+        <input matInput type="password" formControlName="passwordRepeat" required>
+      </mat-form-field>
+      <div class="button-container">
+        <button type="button" routerLink="../"  mat-flat-button>Back</button>
+        <button mat-flat-button color="primary" type="submit" [disabled]="registerForm.invalid">Register</button>
+      </div>
+    </mat-card-content>
+  </form>
+</mat-card>
+
